@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <style>
+        .button {
+             background-color: #3e7afc; /* Bluen */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+        .button2:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        .imageButton {
+            width: 114px;
+            height: 114px;
+            border-radius: 29px;
+        }
+        .imageShadow:hover {
+            box-shadow: 5px 5px 16px 0 rgba(0,0,0,0.24)
+        }
+        h1 {
+            color:black;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        h2 {
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 10px;
+        }
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 100px;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+        li a:hover {
+            background-color: #111;
+        }
+        li a:active {
+            background-color: #3e7afc;
+        }
+        img {
+            max-width:100%;
+        }
+        .active {
+            background-color: #3e7afc;
+        }
+        .flex-container {
+            position: relative;
+            display: flex;
+            margin:0 25% 0 25%;
+            max-width:935px;
+            height:0;
+            padding-top: 17%;
+            flex-wrap: nowrap;
+            background-color:rgb(97, 197, 255);
+            justify-content: space-around;
+            z-index:-1;
+        }
+        .flex-container > div {
+            top: 0;
+            width:32%;
+            height:32%;
+            margin: 1.23% 0 0 1.2%;
+            text-align: left;
+            align-self: flex-start;
+            background-color: rgb(4, 11, 17);
+            flex: 1;
+        }
+        .fill {
+            object-fit:fill;
+        }
+        .cover {
+            object-fit:cover;
+        }
+        </style>
+        <title>Shoha's Website</title>
+        <h1>Web Portfolio of Shoha</h1>
+    </head>
+    <body style=background-color:rgb(255,255,255)>
+        <div id = "topnav" style="position:sticky; top:0px;"> <!-- Navigation Bar-->
+            <div style="overflow:auto;">
+                <div style="width:100%;overflow:hidden;height:44px; margin-bottom:0">
+                    <ul>
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li style="float:right"><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                
+
+            </div>
+
+        </div>
+        <div id="below-top-nav" style="margin-left: 0px; padding-top:0;"> <!--Header "Insert Comment Here"-->
+            <h1 style="background-image: url('assets/img/mountain.jpg'); background-size: 100% 100%; padding: 150px; color: white; margin-top:0; font-family:arial; font-size:750%">Hello</h1>
+            <a h></a>
+        
+        </div>
+        <br id="home">
+        <h2>Home</h2>
+        <div>
+            <p> Hey there friends, this is my website<br>
+                Just creating some space so you can scroll and see some features<br>
+            1<br>
+            2<br>
+            3<br>
+            4<br>
+            5<br>
+            6<br>
+            7<br>
+            8<br>
+            9<br>
+            10<br>
+            11<br>
+            12<br>
+            1<br>
+            2<br>
+            3<br>
+            4<br>
+            5<br>
+            6<br>
+            7<br>
+            8<br>
+            9<br>
+            10<br>
+
+            ...etc<br>
+            </p>
+        </div>
+        <br id="about">
+        <hr> <!--                                                ABOUT ME BREAK                                       -->
+        <section >
+            <div>
+                <h2>This is a little about me</h2>
+                <div>
+                    <p>*pours out life details and <sub><i>sob story</i></sub>*</p>
+                    <br>
+                    <p>My name is Shoha and I am currently 21 years old. I am interested in advancing technologies and music production. To pursue both of these things I am enrolled
+                        in Coding Temple Bootcamp and also creating music content on my downtime. Feel free to follow my coding journey here or on GitHub or my music on Instagram
+                        & Spotify.
+                    </p>
+                    <a class = "" href="https://www.instagram.com/shohawt/">
+                        <img class="imageButton imageShadow" src="assets/img/instagram2.jpg"></a>
+                    <a class = "" href="https://www.tiktok.com/@shohawt?lang=en">
+                            <img class="imageButton imageShadow" src="assets/img/tiktok.png"></a>
+                    <a class = "" href="https://github.com/smtsuchi">
+                            <img class="imageButton imageShadow" src="assets/img/github.jpg"></a>
+                </div>
+            </div>
+        </section>
+        <br id="projects"> 
+        <hr> <!--                                                PROJECTS PAGE BREAK                                    -->
+        <div>
+            <h2>Projects</h2>
+            <p> yay projects</p>
+            <a class="button button2"href="https://github.com/smtsuchi">Visit My GitHub!</a>
+        </div>
+        <br id="contact">
+        <hr> <!--                                               CONTACT PAGE BREAK                                       -->
+        <div>
+            <h2>Contact Me</h2>
+            <p>sike, I don't want you to contact me -.-'<br>
+                but if you want to contact me, leave your email or phone number and I might get back to you  ¯\_(ツ)_/¯<br>
+                <form action="#contact">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" value="Write Name Here"><br>
+                    <label for="info">Email/Phone Number:</label><br>
+                    <input type="text" id="info" name="info" value="(###) ###-####"><br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+
+            </p>
+        </div>
+        <br id="gallery">
+        <hr><!--                                                GALLERY BREAK                                           -->
+        <div>
+            <h2>le fotos</h2>
+            <div class="flex-container"> <!-- row1 -->
+                <div style="flex-grow:1; position:absolute; left:0;"><img src="assets/img/tumblr1.jpg" class="fill"></div>
+                <div style="flex-grow:1; position:absolute; left:33%;"><img src="assets/img/tumblr2.jpg" class="fill"></div>
+                <div style="flex-grow:1; position:absolute; left:66%;"><img src="assets/img/tumblr3.jpg" class="fill"></div>
+            </div>
+            <div class="flex-container"> <!-- row2 -->
+                <div style="flex-grow:1; position:absolute; left:0;"><img src="assets/img/tumblr1.jpg" class="fill"></div>
+                <div style="flex-grow:1; position:absolute; left:33%;"><img src="assets/img/tumblr2.jpg" class="fill"></div>
+                <div style="flex-grow:1; position:absolute; left:66%;"><img src="assets/img/tumblr3.jpg" class="fill"></div>
+            </div>
+            <div class="flex-container"> <!-- row3 -->
+                <div style="flex-grow:1; position:absolute; left:0;"><img src="assets/img/bmx-square.jpg"></div>
+            </div>
+        </div>
+
+    </body>
+</html>
