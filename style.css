@@ -392,8 +392,9 @@ section .title::after{
 
 /* projects section styling */
 .projects .title::after{
-    content: "artist disco";
+    content: "faveorite 3";
 }
+
 .projects .carousel .card{
     background: #222;
     border-radius: 6px;
